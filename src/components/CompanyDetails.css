@@ -1,0 +1,39 @@
+.company {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+
+.pictures { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pictures img {
+    border: 2px solid gray;
+}
+
+.nouveaute-elt {
+    padding: 5px;
+    width: 20%;
+}
+
+.company-header {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.company-header img {
+    width: 20%;
+}
+
+.company-header p {
+    font-size: 25px;
+    width: 20%;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+}
